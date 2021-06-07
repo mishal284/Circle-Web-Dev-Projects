@@ -1,40 +1,49 @@
 
-.nav{
-    justify-content: space-evenly;
-    align-items: center;
-    height: 100px;
-    background-color: #aa5b61;
-    box-shadow: 2px 2px 14px rgba(0,0,0, 0.2);
-    padding: 0px 6%;
-    width: 100%;
+body,html {
+    scroll-behavior: smooth;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
-.nav ul{
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(123, 102, 102);
+    position: sticky;
+    top: 0;
+    display: flex;
+}
+li{
+    float: left;
+    margin: auto;
+    font-size: 23px;
+}
+   
+li a {
     display: block;
-}
-.btns{
-    margin: 10px;
-    font-family: sans-serif;
-    justify-content: space-around;
-}
-.btns:active{
-    transform:scale(1.2);
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+ 
 }
 .header {
     width:100%;
     background-image:url("black-background.jpg");
-    padding: 60px;
     text-align: center;
     color: white;
     font-size: 20px;
     height: 300px;
-    margin: 10px;
+    padding: 60px;
 }
-.header h1{
+.header h1 {
     padding-bottom: 10%;
 
 }
 
-.about-section {
+.about-section{
     font-weight: bold;
     padding-bottom: 10px;
     text-align: center;
@@ -49,22 +58,25 @@
     font-size: 60px;
     letter-spacing: 0.2em;
     padding: 15px; 
-    color: rgb(231, 205, 205);
-    background-color: rgb(114, 63, 121);
+    color: rgb(232, 230, 230);
+    background-color: rgb(136, 127, 136);
 }
 .about-section h2{
     font-size: 60px;
     letter-spacing: 0.2em;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: rgb(114, 63, 121);
+    color: rgb(90, 71, 90);
     text-align: center;
     text-decoration-line: underline;
-    text-decoration-color: rgb(19, 38, 126);
-    padding: 15px; ;
+    text-decoration-color: rgb(184, 101, 101);
+    
 }
 .about-section h3{
-    font-size: 10 px;
-    font-family: fantasy;
+    font-size: 50px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; ;
+    color: rgb(92, 78, 92);
+    text-decoration-line: underline;
+    text-decoration-color: rgb(151, 84, 84);
 }
 .about-section p {
     font-size: 20px;
@@ -87,19 +99,19 @@
     display: flex;
 }
 #list  li{
-    float: left;
+    float: right;
     margin: auto;
     font-size: 20px;
     font-weight: bolder;
 }
  
 #list li a {
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 10px 10px;
-  margin: 10px;
-  text-decoration: none;
+
+    color: black;
+    text-align: center;
+    padding: 10px 10px;
+    margin: 10px;
+    text-decoration: none;
 } 
 
 
@@ -114,7 +126,7 @@
 }
 
 img {
-    border: 5px solid rgb(192, 67, 67);
+    border: 5px solid rgb(174, 144, 144);
 }
 
 contact {
@@ -125,7 +137,12 @@ contact {
     width: 100%;
     height: 100%;
     background: url("photo-1423666639041-f56000c27a9a.jpg")no-repeat center center/cover ;
-    margin: 20px 15px;
+    margin: 20px 20px;
+    
+}
+h1{
+    color: lavender;
+    text-align: center;
 }
 
 .form1{
@@ -134,6 +151,7 @@ contact {
     box-sizing: border-box;
     align-items: center;
     margin: 20px 15px;
+    padding-bottom: 0%;
 }
 .input{
     padding: 12px;
