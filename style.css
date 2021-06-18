@@ -104,6 +104,10 @@ li a {
     font-size: 20px;
     font-weight: bolder;
 }
+.project-section img {
+    height: 300px;
+    width: 255px;
+}
  
 #list li a {
 
@@ -113,6 +117,9 @@ li a {
     margin: 10px;
     text-decoration: none;
 } 
+a{
+
+}
 
 
 
@@ -127,6 +134,7 @@ li a {
 
 img {
     border: 5px solid rgb(174, 144, 144);
+   
 }
 
 contact {
@@ -145,7 +153,7 @@ h1{
     text-align: center;
 }
 
-.form1{
+.contactform{
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
@@ -159,6 +167,10 @@ h1{
     width: 30%;
     border: none;
     outline: none;
+    border-radius: 15px;
+}
+textarea{
+    border-radius: 15px;
 }
 
 .msg{
@@ -179,6 +191,12 @@ h1{
 .social-icons {
     text-align: center;
     background-color: rgb(112, 99, 99);
+}
+.social-icons h3 {
+    color: ivory;
+}
+a:hover {
+     background-color: rgb(243, 225, 225);
 }
 
 
